@@ -1,0 +1,68 @@
+[
+  {
+    "ParameterKey": "SegmentInstanceCount",
+    "ParameterValue": "10"
+  },
+  {
+    "ParameterKey": "PrivateSubnet",
+    "ParameterValue": "subnet-xxxxx"
+  },
+  {
+    "ParameterKey": "PublicSubnet",
+    "ParameterValue": "subnet-xxxxx"
+  },
+  {
+    "ParameterKey": "VPC",
+    "ParameterValue": "vpc-xxxxx"
+  },
+  {
+    "ParameterKey": "KeyPair",
+    "ParameterValue": "greenplum-cloud"
+  },
+ 
+  {
+    "ParameterKey": "MasterInstanceType",
+    "ParameterValue": "r5.2xlarge"
+  }, 
+  {
+    "ParameterKey": "MasterDiskSize",
+    "ParameterValue": "500"
+  },
+  {
+    "ParameterKey": "SegmentInstanceType",
+    "ParameterValue": "r5.4xlarge"
+  }, 
+  {
+    "ParameterKey": "SegmentDiskSize",
+    "ParameterValue": "2000"
+  },
+  {
+    "ParameterKey": "DiskType",
+    "ParameterValue": "st1"
+  },
+  {
+    "ParameterKey": "DataPartitionCount",
+    "ParameterValue": "3"
+  },
+  {
+    "ParameterKey": "SegmentCountPerHost",
+    "ParameterValue": "6"
+  },
+
+  {
+    "ParameterKey": "DatabaseVersion",
+    "ParameterValue": "GP6"
+  },
+  {
+    "ParameterKey": "GPLicense",
+    "ParameterValue": "OpenSourcet"
+  },
+  {
+    "ParameterKey": "CommandCenter",
+    "ParameterValue": "Install"
+  },
+ {
+    "ParameterKey": "UploadFolder",
+    "ParameterValue": "/xxxxxxx/upload_to_cloud"
+  }
+]
